@@ -8,7 +8,7 @@ const initialState: EstadoUsuario = {
 	}
 };
 
-export default function(state = initialState, action: TiposAccionesUsuario): EstadoUsuario {
+export default function(action: TiposAccionesUsuario, state = initialState): EstadoUsuario {
 	switch (action.type) {
 		case LOGIN_USUARIO: {
 			const usuario = action.payload;
