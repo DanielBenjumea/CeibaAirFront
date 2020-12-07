@@ -2,7 +2,7 @@
 
 exports[`RegistrarUsuario test Should match snapshot 1`] = `
 <div>
-  <span
+  <div
     class="sc-AxirZ lbJqCm"
   >
     <form
@@ -31,6 +31,6 @@ exports[`RegistrarUsuario test Should match snapshot 1`] = `
         Registrar
       </button>
     </form>
-  </span>
+  </div>
 </div>
 `;

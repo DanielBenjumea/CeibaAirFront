@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { fireEvent, render, RenderResult, wait } from '@testing-library/react';
+import { RenderResult, fireEvent, render, wait } from '@testing-library/react';
 import { FormRegistrarusuario } from './RegistrarUsuario';
 
 describe('RegistrarUsuario test', () => {
@@ -21,9 +21,10 @@ describe('RegistrarUsuario test', () => {
 		});
 
         const spans = elem.querySelectorAll('span');
-
-        console.log(spans);
         
         expect(spans.length).toBe(2);
+
+		expect(spans[0].textContent).toBe('El campo nombre es requerido.');
+		expect(spans[1].textContent).toBe('El campo password es requerido.');
 	});
 });

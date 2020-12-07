@@ -6,7 +6,7 @@ export const SpanError = styled.span`
   font-size: 8px;
 `;
 
-export const FlexContainer = styled.span`
+export const FlexContainer = styled.div`
     height: 60vh;
     display: flex;
     align-items: center;
