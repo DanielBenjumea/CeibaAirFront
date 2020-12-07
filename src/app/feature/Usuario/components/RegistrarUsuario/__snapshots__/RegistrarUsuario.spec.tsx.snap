@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrarUsuario test Should match snapshot 1`] = `
+<div>
+  <span
+    class="sc-AxirZ lbJqCm"
+  >
+    <form
+      class="sc-AxiKw hTFskS"
+    >
+      <h2>
+        Registrar usuario
+      </h2>
+      <input
+        class="sc-AxhUy fHwnCS"
+        name="nombre"
+        placeholder="Nombre de usuario"
+        value=""
+      />
+      <input
+        class="sc-AxhUy fHwnCS"
+        name="clave"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <button
+        class="sc-AxhCb XVgvt"
+        type="submit"
+      >
+        Registrar
+      </button>
+    </form>
+  </span>
+</div>
+`;
