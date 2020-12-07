@@ -3,29 +3,29 @@
 exports[`RegistrarUsuario test Should match snapshot 1`] = `
 <div>
   <div
-    class="sc-AxirZ lbJqCm"
+    class="sc-gsTCUz dMLA-DA"
   >
     <form
-      class="sc-AxiKw hTFskS"
+      class="sc-dlfnbm iacxvT"
     >
       <h2>
         Registrar usuario
       </h2>
       <input
-        class="sc-AxhUy fHwnCS"
+        class="sc-eCssSg kaQcav"
         name="nombre"
         placeholder="Nombre de usuario"
         value=""
       />
       <input
-        class="sc-AxhUy fHwnCS"
+        class="sc-eCssSg kaQcav"
         name="clave"
         placeholder="Password"
         type="password"
         value=""
       />
       <button
-        class="sc-AxhCb XVgvt"
+        class="sc-hKgILt jeedHa"
         type="submit"
       >
         Registrar
